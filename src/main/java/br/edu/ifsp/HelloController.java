@@ -1,4 +1,4 @@
-package com.example.demo;
+package br.edu.ifsp;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;

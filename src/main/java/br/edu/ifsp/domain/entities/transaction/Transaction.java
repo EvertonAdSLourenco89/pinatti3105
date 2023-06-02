@@ -2,7 +2,6 @@ package br.edu.ifsp.domain.entities.transaction;
 
 import br.edu.ifsp.domain.entities.booking.Booking;
 import br.edu.ifsp.domain.entities.product.Product;
-import br.edu.ifsp.domain.entities.user.User;
 
 import java.util.List;
 

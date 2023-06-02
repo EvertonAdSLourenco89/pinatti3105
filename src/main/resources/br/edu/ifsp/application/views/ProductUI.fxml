@@ -9,7 +9,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.edu.ifsp.application.controller.CategoryController">
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.edu.ifsp.application.controller.ProductUIController">
    <children>
       <ButtonBar layoutX="6.0" layoutY="328.0" />
       <TableView layoutX="6.0" layoutY="7.0" prefHeight="230.0" prefWidth="591.0">
@@ -26,8 +26,8 @@
          </font>
       </Label>
       <ButtonBar layoutX="273.0" layoutY="327.0" />
-      <Button layoutX="10.0" layoutY="363.0" mnemonicParsing="false" text="Voltar" />
-      <Button layoutX="208.0" layoutY="361.0" mnemonicParsing="false" onAction="#onCreateButtonClicked" text="Criar" />
+      <Button fx:id="btnVoltarMenu" layoutX="10.0" layoutY="363.0" mnemonicParsing="false" onAction="#voltarProductMenu" text="Voltar" />
+      <Button layoutX="208.0" layoutY="361.0" mnemonicParsing="false" text="Criar" />
       <Button layoutX="273.0" layoutY="361.0" mnemonicParsing="false" text="Listar" />
       <Button layoutX="332.0" layoutY="361.0" mnemonicParsing="false" text="Atualizar" />
       <AnchorPane prefHeight="400.0" prefWidth="600.0">

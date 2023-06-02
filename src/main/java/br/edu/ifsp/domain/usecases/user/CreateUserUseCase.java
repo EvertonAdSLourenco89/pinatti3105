@@ -1,10 +1,8 @@
 package br.edu.ifsp.domain.usecases.user;
 
 import br.edu.ifsp.domain.entities.user.User;
-import br.edu.ifsp.domain.usecases.utils.EntityAlreadyExistsException;
 import br.edu.ifsp.domain.usecases.utils.Notification;
 import br.edu.ifsp.domain.usecases.utils.Validator;
-import java.util.Optional;
 
 public class CreateUserUseCase {
 

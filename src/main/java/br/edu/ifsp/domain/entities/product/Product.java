@@ -4,7 +4,6 @@ public class Product {
     private Integer id;
     private String name;
     private double price;
-
     public Product() {
     }
 

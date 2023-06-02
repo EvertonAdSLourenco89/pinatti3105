@@ -1,4 +1,4 @@
 package br.edu.ifsp.application.controller;
 
-public class ProductCreateUI {
+public class ProductCreateUIController {
 }

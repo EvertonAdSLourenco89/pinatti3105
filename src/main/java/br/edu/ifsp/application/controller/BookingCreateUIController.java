@@ -1,4 +1,4 @@
 package br.edu.ifsp.application.controller;
 
-public class BookingCreateUI {
+public class BookingCreateUIController {
 }

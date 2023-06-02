@@ -6,7 +6,7 @@ import br.edu.ifsp.domain.entities.room.Room;
 import java.time.LocalDate;
 
 public class Booking {
-    private  Integer idBooking;
+    private Integer idBooking;
     private Room room;
     private String nameCategory;
     private LocalDate startDateBooking;

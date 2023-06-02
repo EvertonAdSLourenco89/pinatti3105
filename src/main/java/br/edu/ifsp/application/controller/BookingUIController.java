@@ -1,2 +1,13 @@
-package br.edu.ifsp.application.views;public class BookingUi {
+package br.edu.ifsp.application.controller;
+
+import br.edu.ifsp.application.views.WindowLoader;
+import javafx.event.ActionEvent;
+
+import java.io.IOException;
+
+public class BookingUIController {
+    public void voltarBookingMenuUI(ActionEvent actionEvent) throws IOException {
+        WindowLoader.setRoot("MenuUI");
+    }
+
 }

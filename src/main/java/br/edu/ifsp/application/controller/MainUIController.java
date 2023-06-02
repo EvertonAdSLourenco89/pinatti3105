@@ -1,4 +1,4 @@
-package br.edu.ifsp.application.views;
+package br.edu.ifsp.application.controller;
 
 import br.edu.ifsp.application.views.WindowLoader;
 import javafx.event.ActionEvent;
@@ -9,4 +9,11 @@ public class MainUIController {
     public void menuUI(ActionEvent actionEvent) throws IOException {
         WindowLoader.setRoot("MenuUI");
     }
+
+    public void bookingMenu(ActionEvent actionEvent) throws IOException {
+        WindowLoader.setRoot("BookingUI");
+    }
+
+
 }
+

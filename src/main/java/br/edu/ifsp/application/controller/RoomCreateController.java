@@ -1,2 +1,4 @@
-package br.edu.ifsp.application.views;public class RoomCreateController {
+package br.edu.ifsp.application.controller;
+
+public class RoomCreateController {
 }

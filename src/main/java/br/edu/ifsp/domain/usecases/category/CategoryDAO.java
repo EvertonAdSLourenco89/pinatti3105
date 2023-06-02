@@ -1,8 +1,6 @@
 package br.edu.ifsp.domain.usecases.category;
 
-import br.edu.ifsp.domain.entities.booking.Booking;
 import br.edu.ifsp.domain.entities.category.Category;
-import br.edu.ifsp.domain.entities.room.Room;
 import br.edu.ifsp.domain.usecases.utils.DAO;
 
 import java.util.List;
