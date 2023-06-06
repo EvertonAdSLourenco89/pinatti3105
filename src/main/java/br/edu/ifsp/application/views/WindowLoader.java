@@ -14,7 +14,7 @@ public class WindowLoader extends Application {
 
     @Override
     public void start(Stage stage) throws IOException {
-        scene = new Scene(loadFXML("BookingUI"));
+        scene = new Scene(loadFXML("UserCreateUI"));
         stage.setScene(scene);
         stage.show();
     }

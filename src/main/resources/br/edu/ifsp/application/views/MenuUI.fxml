@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.edu.ifsp.application.controller.MenuUIController">
+    <children>
+        <ButtonBar layoutX="91.0" layoutY="228.0">
+            <buttons>
+                <Button fx:id="btnCategoryMenu" mnemonicParsing="false" onAction="#categoryMenu" text="CATEGORIA">
+                    <font>
+                        <Font size="19.0" />
+                    </font>
+                </Button>
+                <Button fx:id="btnProduct" mnemonicParsing="false" onAction="#productMenu" text="PRODUTO">
+                    <font>
+                        <Font size="19.0" />
+                    </font>
+                </Button>
+                <Button mnemonicParsing="false" text="QUARTO">
+                    <font>
+                        <Font size="19.0" />
+                    </font>
+                </Button>
+            </buttons>
+        </ButtonBar>
+        <Label layoutX="139.0" layoutY="32.0" text="PINATTI SYSTEM" textAlignment="CENTER" textFill="#ee0808">
+            <font>
+                <Font name="Britannic Bold" size="43.0" />
+            </font>
+        </Label>
+        <ButtonBar layoutX="121.0" layoutY="107.0" />
+        <Button fx:id="btnBooking" layoutX="111.0" layoutY="146.0" mnemonicParsing="false" onAction="#bookingMenu" prefHeight="40.0" prefWidth="126.0" text="RESERVA">
+            <font>
+                <Font size="19.0" />
+            </font>
+        </Button>
+        <Button fx:id="btnUser" layoutX="246.0" layoutY="146.0" mnemonicParsing="false" onAction="#userMenu" prefHeight="40.0" prefWidth="126.0" text="USUÁRIO">
+            <font>
+                <Font size="19.0" />
+            </font>
+        </Button>
+        <Button fx:id="btnMenucaixa" layoutX="382.0" layoutY="146.0" mnemonicParsing="false" onAction="#cashierMenu" prefHeight="40.0" prefWidth="126.0" text="CAIXA">
+            <font>
+                <Font size="19.0" />
+            </font>
+        </Button>
+        <Button fx:id="btnVoltarMain" layoutX="522.0" layoutY="361.0" mnemonicParsing="false" onAction="#voltarMain" text="Voltar" />
+    </children>
+</AnchorPane>
