@@ -9,4 +9,12 @@ public class UserUIController {
     public void voltarUserMenuUI(ActionEvent actionEvent) throws IOException {
         WindowLoader.setRoot("MenuUI");
     }
+
+    public void createUser(ActionEvent actionEvent) throws IOException {
+        WindowLoader.setRoot("UserCreateUI");
+    }
+
+    public void updateUser(ActionEvent actionEvent) throws IOException {
+        WindowLoader.setRoot("UserUpdateUI");
+    }
 }

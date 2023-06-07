@@ -40,7 +40,7 @@
       <TextField layoutX="390.0" layoutY="294.0" prefHeight="25.0" prefWidth="192.0" />
       <ButtonBar layoutX="345.0" layoutY="361.0">
          <buttons>
-            <Button fx:id="btnMenu" mnemonicParsing="false" onAction="#voltarCashierMenuUI" text="Cancelar" />
+            <Button fx:id="btnBackCashier" mnemonicParsing="false" onAction="#backCashier" text="Voltar" />
             <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="102.0" text="Fechar Caixa" />
          </buttons>
       </ButtonBar>

@@ -13,10 +13,10 @@
    <children>
       <ButtonBar layoutX="6.0" layoutY="328.0">
          <buttons>
-            <Button mnemonicParsing="false" text="Voltar" />
+            <Button fx:id="btnVoltaRoomMenu" mnemonicParsing="false" onAction="#voltaRoomMenu" text="Voltar" />
          </buttons>
       </ButtonBar>
-      <TableView layoutX="6.0" layoutY="7.0" prefHeight="222.0" prefWidth="586.0">
+      <TableView layoutX="8.0" layoutY="69.0" prefHeight="222.0" prefWidth="586.0">
          <columns>
             <TableColumn prefWidth="298.0" text="NÚMERO" />
             <TableColumn prefWidth="287.0" text="STATUS" />
@@ -31,7 +31,7 @@
             <Button mnemonicParsing="false" text="Desabilitar" />
          </buttons>
       </ButtonBar>
-      <Label layoutX="214.0" layoutY="248.0" opacity="0.06" text="QUARTO" textAlignment="CENTER">
+      <Label layoutX="216.0" opacity="0.06" text="QUARTO" textAlignment="CENTER">
          <font>
             <Font size="43.0" />
          </font>

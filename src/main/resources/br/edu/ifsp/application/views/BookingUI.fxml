@@ -11,6 +11,18 @@
 
 <AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.edu.ifsp.application.controller.BookingUIController">
    <children>
+      <AnchorPane prefHeight="400.0" prefWidth="600.0">
+         <children>
+            <ButtonBar layoutX="6.0" layoutY="328.0" />
+            <ButtonBar layoutX="252.0" layoutY="331.0" />
+            <ButtonBar layoutX="252.0" layoutY="328.0" />
+            <ButtonBar layoutX="273.0" layoutY="327.0" />
+            <Button fx:id="btnvoltarBookingMenuUI" layoutX="10.0" layoutY="363.0" mnemonicParsing="false" onAction="#voltarBookingMenu" text="Voltar" />
+         </children>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </AnchorPane>
       <ButtonBar layoutX="6.0" layoutY="328.0" />
       <TableView layoutX="5.0" layoutY="64.0" prefHeight="275.0" prefWidth="591.0">
         <columns>
@@ -30,28 +42,16 @@
          </font>
       </Label>
       <ButtonBar layoutX="273.0" layoutY="327.0" />
-      <Button fx:id="btnVoltarMain" layoutX="10.0" layoutY="363.0" mnemonicParsing="false" onAction="#voltarBookingMenuUI" text="Voltar" />
+      <Button fx:id="btnVoltarMain" layoutX="10.0" layoutY="363.0" mnemonicParsing="false" onAction="#voltarBookingMenu" text="Voltar" />
       <ButtonBar layoutX="321.0" layoutY="363.0" />
       <ButtonBar layoutX="236.0" layoutY="363.0">
          <buttons>
-            <Button mnemonicParsing="false"  text="Criar" />
+            <Button fx:id="btnCreateBookingMenu" mnemonicParsing="false" onAction="#createBookingMenu" text="Criar" />
             <Button mnemonicParsing="false" text="Listar" />
-            <Button mnemonicParsing="false" text="Atualizar" />
-            <Button mnemonicParsing="false"  text="Finalizar" />
+            <Button fx:id="btUpdateBookingMenu" mnemonicParsing="false" onAction="#updateBookingMenu" text="Atualizar" />
+            <Button mnemonicParsing="false" text="Finalizar" />
          </buttons>
       </ButtonBar>
-      <AnchorPane prefHeight="400.0" prefWidth="600.0">
-         <children>
-            <ButtonBar layoutX="6.0" layoutY="328.0" />
-            <ButtonBar layoutX="252.0" layoutY="331.0" />
-            <ButtonBar layoutX="252.0" layoutY="328.0" />
-            <ButtonBar layoutX="273.0" layoutY="327.0" />
-            <Button fx:id="btnvoltarBookingMenuUI" layoutX="10.0" layoutY="363.0" mnemonicParsing="false" onAction="#voltarBookingMenuUI" text="Voltar" />
-         </children>
-         <opaqueInsets>
-            <Insets />
-         </opaqueInsets>
-      </AnchorPane>
    </children>
    <opaqueInsets>
       <Insets />

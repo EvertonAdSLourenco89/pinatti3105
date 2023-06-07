@@ -15,12 +15,12 @@
                         <Font size="19.0" />
                     </font>
                 </Button>
-                <Button fx:id="btnProduct" mnemonicParsing="false" onAction="#productMenu" text="PRODUTO">
+                <Button fx:id="btnProductMenu" mnemonicParsing="false" onAction="#productMenu" text="PRODUTO">
                     <font>
                         <Font size="19.0" />
                     </font>
                 </Button>
-                <Button mnemonicParsing="false" text="QUARTO">
+                <Button fx:id="btnRoomMenu" mnemonicParsing="false" onAction="#roomMenu" text="QUARTO">
                     <font>
                         <Font size="19.0" />
                     </font>
@@ -33,17 +33,17 @@
             </font>
         </Label>
         <ButtonBar layoutX="121.0" layoutY="107.0" />
-        <Button fx:id="btnBooking" layoutX="111.0" layoutY="146.0" mnemonicParsing="false" onAction="#bookingMenu" prefHeight="40.0" prefWidth="126.0" text="RESERVA">
+        <Button fx:id="btnBookingMenu" layoutX="111.0" layoutY="146.0" mnemonicParsing="false" onAction="#bookingMenu" prefHeight="40.0" prefWidth="126.0" text="RESERVA">
             <font>
                 <Font size="19.0" />
             </font>
         </Button>
-        <Button fx:id="btnUser" layoutX="246.0" layoutY="146.0" mnemonicParsing="false" onAction="#userMenu" prefHeight="40.0" prefWidth="126.0" text="USUÁRIO">
+        <Button fx:id="btnUserMenu" layoutX="246.0" layoutY="146.0" mnemonicParsing="false" onAction="#userMenu" prefHeight="40.0" prefWidth="126.0" text="USUÁRIO">
             <font>
                 <Font size="19.0" />
             </font>
         </Button>
-        <Button fx:id="btnMenucaixa" layoutX="382.0" layoutY="146.0" mnemonicParsing="false" onAction="#cashierMenu" prefHeight="40.0" prefWidth="126.0" text="CAIXA">
+        <Button fx:id="btnCashierMenu" layoutX="382.0" layoutY="146.0" mnemonicParsing="false" onAction="#cashierMenu" prefHeight="40.0" prefWidth="126.0" text="CAIXA">
             <font>
                 <Font size="19.0" />
             </font>

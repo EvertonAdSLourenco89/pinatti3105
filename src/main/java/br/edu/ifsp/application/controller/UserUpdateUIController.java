@@ -5,8 +5,8 @@ import javafx.event.ActionEvent;
 
 import java.io.IOException;
 
-public class RoomUIController {
-    public void voltaRoomMenu(ActionEvent actionEvent) throws IOException {
-        WindowLoader.setRoot("MenuUI");
+public class UserUpdateUIController {
+    public void backUserUpdate(ActionEvent actionEvent) throws IOException {
+        WindowLoader.setRoot("UserUI");
     }
 }

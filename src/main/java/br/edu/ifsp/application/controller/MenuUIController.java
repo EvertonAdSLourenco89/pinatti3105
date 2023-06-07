@@ -27,4 +27,8 @@ public class MenuUIController {
     public void productMenu(ActionEvent actionEvent) throws IOException {
         WindowLoader.setRoot("ProductUI");
     }
+
+    public void roomMenu(ActionEvent actionEvent) throws IOException {
+        WindowLoader.setRoot("RoomUI");
+    }
 }
