@@ -6,8 +6,15 @@ import javafx.event.ActionEvent;
 import java.io.IOException;
 
 public class BookingUIController {
-    public void voltarBookingMenuUI(ActionEvent actionEvent) throws IOException {
+    public void voltarBookingMenu(ActionEvent actionEvent) throws IOException {
         WindowLoader.setRoot("MenuUI");
     }
 
+    public void createBookingMenu(ActionEvent actionEvent) throws IOException {
+        WindowLoader.setRoot("BookingCreateUI");
+    }
+
+    public void updateBookingMenu(ActionEvent actionEvent) throws IOException {
+        WindowLoader.setRoot("BookingUpdateUI");
+    }
 }

@@ -6,7 +6,7 @@ import javafx.event.ActionEvent;
 import java.io.IOException;
 
 public class CashierUIController {
-    public void voltarCashierMenuUI(ActionEvent actionEvent) throws IOException {
+    public void backCashier(ActionEvent actionEvent) throws IOException {
         WindowLoader.setRoot("MenuUI");
     }
 }
